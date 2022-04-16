@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/editing-portfolio/static/css/main.bb3bb832.css",
-    "main.js": "/editing-portfolio/static/js/main.1bbe62bf.js",
+    "main.css": "/editing-portfolio/static/css/main.c34c06e5.css",
+    "main.js": "/editing-portfolio/static/js/main.985e9863.js",
     "static/js/787.082b8f0f.chunk.js": "/editing-portfolio/static/js/787.082b8f0f.chunk.js",
     "static/media/ZM_Logo.svg": "/editing-portfolio/static/media/ZM_Logo.6b153d57fa382196de7cfb6d00600b6b.svg",
     "index.html": "/editing-portfolio/index.html",
-    "main.bb3bb832.css.map": "/editing-portfolio/static/css/main.bb3bb832.css.map",
-    "main.1bbe62bf.js.map": "/editing-portfolio/static/js/main.1bbe62bf.js.map",
+    "main.c34c06e5.css.map": "/editing-portfolio/static/css/main.c34c06e5.css.map",
+    "main.985e9863.js.map": "/editing-portfolio/static/js/main.985e9863.js.map",
     "787.082b8f0f.chunk.js.map": "/editing-portfolio/static/js/787.082b8f0f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb3bb832.css",
-    "static/js/main.1bbe62bf.js"
+    "static/css/main.c34c06e5.css",
+    "static/js/main.985e9863.js"
   ]
 }
