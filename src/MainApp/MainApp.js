@@ -1,11 +1,12 @@
 import React from 'react';
 import { Routes, Route } from "react-router-dom";
-import styles from './MainApp.module.scss';
+import Header from '../Header';
+import styles from './styles.module.scss';
 
 const MainApp = () => {
   return (
     <div className={styles.mainApp}>
-      <div>Header</div>
+      <Header />
       <Routes>
         <Route path="/about" element={<div>About</div>} />
         <Route path="/work" element={<div>Work</div>} />
