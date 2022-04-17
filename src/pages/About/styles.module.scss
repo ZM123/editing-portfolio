@@ -1,3 +1,5 @@
+@import '../../transitions.module.scss';
+
 .aboutPage {
   display: flex;
   height: 100%;
@@ -5,33 +7,14 @@
   overflow: hidden;
 }
 
-@keyframes slideUp {
-  0% {
-    transform: translateY(100%);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-
 .picturePanel {
-  animation: 1.5s cubic-bezier(.2,.52,.37,1) 0s 1 slideUp;
+  @include slideUpAnimation;
   background-color: #E4C32E;
   width: 35%;
 }
 
-@keyframes slideLeft {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-
 .aboutPanel {
-  animation: 1.5s cubic-bezier(.2,.52,.37,1) 0s 1 slideLeft;
-  background-color: #fafafa;
+  @include slideLeftAnimation;
   padding: 16px 16px 16px 100px;
   display: flex;
   flex-direction: column;
