@@ -1,5 +1,6 @@
 import React from 'react';
 import PageTemplate from '../PageTemplate';
+import ProfilePic from '../../assets/Profile_pic.jpg';
 import styles from './styles.module.scss';
 
 const About = () => {
@@ -7,7 +8,9 @@ const About = () => {
     <PageTemplate>
       <div className={styles.aboutPage}>
         <div className={styles.picturePanel}>
-          Pic
+          <div className={styles.profilePicContainer}>
+            <img src={ProfilePic} className={styles.profilePic} />
+          </div>
         </div>
         <div className={styles.aboutPanel}>
           <div className={styles.title}>About Me</div>
