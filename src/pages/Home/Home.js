@@ -1,6 +1,6 @@
 import React from 'react';
 import HeaderLink from '../../Header/HeaderLink';
-import logo from '../../ZM_Logo.svg';
+import logo from '../../assets/ZM_Logo.svg';
 import styles from './styles.module.scss';
 
 const Home = () => {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import HeaderLink from "./HeaderLink";
-import logo from '../ZM_Logo.svg';
+import logo from '../assets/ZM_Logo.svg';
 import styles from './styles.module.scss';
 
 const Header = () => {

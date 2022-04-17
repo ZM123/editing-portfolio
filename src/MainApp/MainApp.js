@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route } from "react-router-dom";
 import Header from '../Header';
-import { About, Work, Home } from '../pages';
+import { About, Work, Home, Contact } from '../pages';
 import styles from './styles.module.scss';
 
 const MainRoutes = () => {
@@ -11,7 +11,7 @@ const MainRoutes = () => {
       <Routes>
         <Route path="/about" element={<About />} />
         <Route path="/work" element={<Work />} />
-        <Route path="/contact" element={<div>Contact</div>} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </>
   );

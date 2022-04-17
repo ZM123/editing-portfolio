@@ -34,6 +34,17 @@
   }
 }
 
+@keyframes fadeRise {
+  0% {
+    opacity: 0;
+    transform: translateY(200%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @mixin slideUpAnimation {
   animation: 1.5s cubic-bezier(.2,.52,.37,1) 0s 1 slideUp;
 }
@@ -48,4 +59,8 @@
 
 @mixin fadeInAnimation {
   animation: 1s ease-in-out 0s normal forwards 1 fadeIn;
+}
+
+@mixin fadeRiseAnimation {
+  animation: 1s ease-in-out 0s normal forwards 1 fadeRise;
 }
