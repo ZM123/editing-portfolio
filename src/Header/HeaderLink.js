@@ -3,11 +3,12 @@ import { Link } from "react-router-dom";
 import styles from './styles.module.scss';
 
 const HeaderLink = ({ label, className, ...otherProps }) => {
+  const Tag = otherProps.to ? Link : 'a';
   return (
     <div className={`${styles.headerLink} ${className}`}>
-      <Link className={styles.text} {...otherProps}>
+      <Tag className={styles.text} {...otherProps}>
         {label}
-      </Link>
+      </Tag>
     </div>
   );
 };

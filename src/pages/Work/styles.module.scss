@@ -21,18 +21,23 @@
 
 .workItemOne {
   grid-area: one;
+  opacity: 0;
   background-color: red;
-  @include slideRightAnimation;
+  @include fadeInAnimation;
 }
 
 .workItemTwo {
   grid-area: two;
   background-color: green;
-  @include slideLeftAnimation;
+  opacity: 0;
+  @include fadeInAnimation;
+  animation-delay: 0.5s;
 }
 
 .workItemThree {
   grid-area: three;
   background-color: blue;
-  @include slideUpAnimation;
+  opacity: 0;
+  @include fadeInAnimation;
+  animation-delay: 1s;
 }

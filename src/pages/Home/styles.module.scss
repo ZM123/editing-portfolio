@@ -16,44 +16,44 @@
   padding: 64px;
   display: grid;
   grid-template-areas:
-    "something about"
+    "about work"
     "logo logo"
-    "work contact";
+    "contact resume";
   grid-template-rows: auto 1fr auto;
   align-items: center;
   gap: 32px;
 }
 
-.somethingLink,
 .aboutLink,
 .workLink,
-.contactLink {
+.contactLink,
+.resumeLink {
   font-size: 1.4rem;
   opacity: 0;
   @include fadeInAnimation;
 }
 
-.somethingLink {
-  grid-area: something;
+.aboutLink {
   justify-content: flex-start;
+  grid-area: about;
   animation-delay: 1s;
 }
 
-.aboutLink {
+.workLink {
   justify-content: flex-end;
-  grid-area: about;
+  grid-area: work;
   animation-delay: 2s;
 }
 
-.workLink {
+.contactLink {
   justify-content: flex-start;
-  grid-area: work;
+  grid-area: contact;
   animation-delay: 3s;
 }
 
-.contactLink {
+.resumeLink {
+  grid-area: resume;
   justify-content: flex-end;
-  grid-area: contact;
   animation-delay: 4s;
 }
 
