@@ -12,6 +12,7 @@ const About = () => {
             <img src={ProfilePic} className={styles.profilePic} />
           </div>
         </div>
+        <div className={styles.divider} />
         <div className={styles.aboutPanel}>
           <div className={styles.title}>About Me</div>
           <div className={styles.bodyText}>
