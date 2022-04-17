@@ -1,0 +1,68 @@
+@import '../../transitions.module.scss';
+
+.homePage {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  background-image: url('../../Zal_Composition.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  grid-template-columns: 1fr auto 1fr;
+}
+
+.homeNav {
+  background-color: #2E3192;
+  padding: 64px;
+  display: grid;
+  grid-template-areas:
+    "something about"
+    "logo logo"
+    "work contact";
+  grid-template-rows: auto 1fr auto;
+  align-items: center;
+  gap: 32px;
+}
+
+.somethingLink,
+.aboutLink,
+.workLink,
+.contactLink {
+  font-size: 1.4rem;
+  opacity: 0;
+  @include fadeInAnimation;
+}
+
+.somethingLink {
+  grid-area: something;
+  justify-content: flex-start;
+  animation-delay: 1s;
+}
+
+.aboutLink {
+  justify-content: flex-end;
+  grid-area: about;
+  animation-delay: 2s;
+}
+
+.workLink {
+  justify-content: flex-start;
+  grid-area: work;
+  animation-delay: 3s;
+}
+
+.contactLink {
+  justify-content: flex-end;
+  grid-area: contact;
+  animation-delay: 4s;
+}
+
+.homeLogo {
+  grid-area: logo;
+  min-height: 100%;
+  min-width: 100%;
+  height: 0;
+  width: 0;
+  @include fadeInAnimation;
+  animation-duration: 3s;
+}

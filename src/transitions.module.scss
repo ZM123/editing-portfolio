@@ -25,6 +25,15 @@
   }
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 @mixin slideUpAnimation {
   animation: 1.5s cubic-bezier(.2,.52,.37,1) 0s 1 slideUp;
 }
@@ -35,4 +44,8 @@
 
 @mixin slideRightAnimation {
   animation: 1.5s cubic-bezier(.2,.52,.37,1) 0s 1 slideRight;
+}
+
+@mixin fadeInAnimation {
+  animation: 1s ease-in-out 0s normal forwards 1 fadeIn;
 }

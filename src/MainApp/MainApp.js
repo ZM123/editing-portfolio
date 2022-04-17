@@ -1,18 +1,28 @@
 import React from 'react';
 import { Routes, Route } from "react-router-dom";
 import Header from '../Header';
-import { About, Work } from '../pages';
+import { About, Work, Home } from '../pages';
 import styles from './styles.module.scss';
 
-const MainApp = () => {
+const MainRoutes = () => {
   return (
-    <div className={styles.mainApp}>
+    <>
       <Header />
       <Routes>
         <Route path="/about" element={<About />} />
         <Route path="/work" element={<Work />} />
         <Route path="/contact" element={<div>Contact</div>} />
-        <Route path="/" element={<div>Home</div>} />
+      </Routes>
+    </>
+  );
+};
+
+const MainApp = () => {
+  return (
+    <div className={styles.mainApp}>
+      <Routes>
+        <Route path="*" element={<MainRoutes />} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </div>
   );
