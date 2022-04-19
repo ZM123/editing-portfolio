@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/editing-portfolio/static/css/main.f9f99713.css",
-    "main.js": "/editing-portfolio/static/js/main.e6a1edd1.js",
+    "main.css": "/editing-portfolio/static/css/main.dcebcdef.css",
+    "main.js": "/editing-portfolio/static/js/main.d86242ac.js",
     "static/js/787.082b8f0f.chunk.js": "/editing-portfolio/static/js/787.082b8f0f.chunk.js",
     "static/media/Profile_pic.jpg": "/editing-portfolio/static/media/Profile_pic.0cb6031cb11149b6c5fc.jpg",
+    "static/media/VFXReel_Thumbnail.png": "/editing-portfolio/static/media/VFXReel_Thumbnail.e32bdc8064cfdd1081dc.png",
     "static/media/Zal_Composition.jpg": "/editing-portfolio/static/media/Zal_Composition.fd242949658b0df5b113.jpg",
     "static/media/PPFT5053_A3_resume_Machado_Zal.pdf": "/editing-portfolio/static/media/PPFT5053_A3_resume_Machado_Zal.10cf408306e9c7502a9f.pdf",
     "static/media/ZM_Logo.svg": "/editing-portfolio/static/media/ZM_Logo.6b153d57fa382196de7cfb6d00600b6b.svg",
@@ -11,12 +12,12 @@
     "static/media/phone.svg": "/editing-portfolio/static/media/phone.d8bef44d920c62646ecae810c1b352b9.svg",
     "static/media/linkedin.svg": "/editing-portfolio/static/media/linkedin.2350a9bf3c9b140985fa189546aea6e6.svg",
     "index.html": "/editing-portfolio/index.html",
-    "main.f9f99713.css.map": "/editing-portfolio/static/css/main.f9f99713.css.map",
-    "main.e6a1edd1.js.map": "/editing-portfolio/static/js/main.e6a1edd1.js.map",
+    "main.dcebcdef.css.map": "/editing-portfolio/static/css/main.dcebcdef.css.map",
+    "main.d86242ac.js.map": "/editing-portfolio/static/js/main.d86242ac.js.map",
     "787.082b8f0f.chunk.js.map": "/editing-portfolio/static/js/787.082b8f0f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9f99713.css",
-    "static/js/main.e6a1edd1.js"
+    "static/css/main.dcebcdef.css",
+    "static/js/main.d86242ac.js"
   ]
 }
