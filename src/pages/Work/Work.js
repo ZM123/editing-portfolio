@@ -29,13 +29,14 @@ const Work = () => {
           src="https://user-images.githubusercontent.com/3130987/153670574-330ca7f8-f11c-4291-831d-ffb10ac435d3.png"
           title="AVID Shot Renaming Utility"
           description="A utility script to bulk modify shot names in an AVID bin, including find/replace and converting between uppercase and lowercase"
+          style={{ animationDelay: '0.5s' }}
         />
         <WorkLink
           href="https://youtu.be/BYtPltQwWnQ"
           src={DocThumbnail}
           title="Karan On Photography"
           description="A documentary short I shot and edited about the photography work of a fellow student at Humber College"
-          style={{ gridArea: 'three' }}
+          style={{ gridArea: 'three', animationDelay: '1s' }}
         />
       </div>
     </PageTemplate>

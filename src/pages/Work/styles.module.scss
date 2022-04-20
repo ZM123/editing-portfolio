@@ -21,7 +21,6 @@
   overflow: hidden;
   opacity: 0;
   @include fadeInAnimation;
-  animation-delay: 0.5s;
 
   .workLinkImage {
     height: 100%;
