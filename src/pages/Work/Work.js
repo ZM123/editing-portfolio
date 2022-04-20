@@ -1,11 +1,12 @@
 import React from 'react';
 import VFXThumbnail from '../../assets/VFXReel_Thumbnail.png';
+import DocThumbnail from '../../assets/Doc_Thumbnail.png';
 import PageTemplate from '../PageTemplate';
 import styles from './styles.module.scss';
 
-const WorkLink = ({ href, src, title, description }) => {
+const WorkLink = ({ href, src, title, description, ...otherProps }) => {
   return (
-    <a className={styles.workLink} href={href} target="_blank">
+    <a className={styles.workLink} href={href} target="_blank" {...otherProps}>
       <img src={src} className={styles.workLinkImage} />
       <div className={styles.workLinkTitle}>{title}</div>
       <div className={styles.workLinkDescription}>{description}</div>
@@ -29,7 +30,13 @@ const Work = () => {
           title="AVID Shot Renaming Utility"
           description="A utility script to bulk modify shot names in an AVID bin, including find/replace and converting between uppercase and lowercase"
         />
-        <div className={styles.workItemThree} />
+        <WorkLink
+          href="https://youtu.be/BYtPltQwWnQ"
+          src={DocThumbnail}
+          title="Karan On Photography"
+          description="A documentary short I shot and edited about the photography work of a fellow student at Humber College"
+          style={{ gridArea: 'three' }}
+        />
       </div>
     </PageTemplate>
   );

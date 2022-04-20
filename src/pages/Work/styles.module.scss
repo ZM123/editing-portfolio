@@ -14,36 +14,6 @@
   overflow: hidden;
 }
 
-.workItemOne,
-.workItemTwo,
-.workItemThree {
-  width: 100%;
-  height: 100%;
-}
-
-.workItemOne {
-  grid-area: one;
-  opacity: 0;
-  background-color: red;
-  @include fadeInAnimation;
-}
-
-.workItemTwo {
-  grid-area: two;
-  background-color: green;
-  opacity: 0;
-  @include fadeInAnimation;
-  animation-delay: 0.5s;
-}
-
-.workItemThree {
-  grid-area: three;
-  background-color: blue;
-  opacity: 0;
-  @include fadeInAnimation;
-  animation-delay: 1s;
-}
-
 .workLink {
   position: relative;
   width: 100%;
