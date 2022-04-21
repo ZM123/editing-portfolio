@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/editing-portfolio/static/css/main.ee30efb0.css",
-    "main.js": "/editing-portfolio/static/js/main.332e353f.js",
+    "main.css": "/editing-portfolio/static/css/main.aee9966a.css",
+    "main.js": "/editing-portfolio/static/js/main.b63b6b89.js",
     "static/js/787.082b8f0f.chunk.js": "/editing-portfolio/static/js/787.082b8f0f.chunk.js",
     "static/media/Doc_Thumbnail.png": "/editing-portfolio/static/media/Doc_Thumbnail.71501dc385cc48a6603b.png",
     "static/media/Profile_pic.jpg": "/editing-portfolio/static/media/Profile_pic.0cb6031cb11149b6c5fc.jpg",
@@ -13,12 +13,12 @@
     "static/media/phone.svg": "/editing-portfolio/static/media/phone.d8bef44d920c62646ecae810c1b352b9.svg",
     "static/media/linkedin.svg": "/editing-portfolio/static/media/linkedin.2350a9bf3c9b140985fa189546aea6e6.svg",
     "index.html": "/editing-portfolio/index.html",
-    "main.ee30efb0.css.map": "/editing-portfolio/static/css/main.ee30efb0.css.map",
-    "main.332e353f.js.map": "/editing-portfolio/static/js/main.332e353f.js.map",
+    "main.aee9966a.css.map": "/editing-portfolio/static/css/main.aee9966a.css.map",
+    "main.b63b6b89.js.map": "/editing-portfolio/static/js/main.b63b6b89.js.map",
     "787.082b8f0f.chunk.js.map": "/editing-portfolio/static/js/787.082b8f0f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee30efb0.css",
-    "static/js/main.332e353f.js"
+    "static/css/main.aee9966a.css",
+    "static/js/main.b63b6b89.js"
   ]
 }
