@@ -11,7 +11,10 @@ const Home = () => {
       <div className={styles.homeNav}>
         <HeaderLink to="/about" label="About" className={styles.aboutLink} />
         <HeaderLink to="/work" label="Work" className={styles.workLink} />
-        <img src={logo} className={styles.homeLogo} />
+        <div className={styles.logoContainer}>
+          <img src={logo} />
+          <div className={styles.logoText}>Zal Machado</div>
+        </div>
         <HeaderLink to="/contact" label="Contact" className={styles.contactLink} />
         <HeaderLink href={ResumePDF} target="_blank" label="Resume" className={styles.resumeLink} />
       </div>
