@@ -35,7 +35,7 @@ const Work = () => {
           href="https://youtu.be/BYtPltQwWnQ"
           src={DocThumbnail}
           title="Karan On Photography"
-          description="A documentary short I shot and edited about the photography work of a fellow student at Humber College"
+          description="A documentary short I shot and edited about the photography work of a fellow student at Humber College, edited in Adobe Premiere Pro"
           style={{ gridArea: 'three', animationDelay: '1s' }}
         />
       </div>

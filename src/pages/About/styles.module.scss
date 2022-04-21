@@ -46,16 +46,26 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  justify-content: center;
+  overflow: auto;
   gap: 8px;
 
   .title {
     color: #BE1E2D;
     font-size: 4rem;
+    margin-bottom: 1.5rem;
+    margin-top: auto;
   }
 
   .bodyText {
-    font-size: 1rem;
+    font-size: 1.1rem;
     width: 70%;
+    line-height: 1.6rem;
+    white-space: pre-wrap;
+    margin-bottom: auto;
+
+    a {
+      color: #BE1E2D;
+      text-decoration: underline;
+    }
   }
 }
