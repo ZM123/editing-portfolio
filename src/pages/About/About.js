@@ -19,7 +19,7 @@ const About = () => {
           <div className={styles.bodyText}>
             {`Hi there!
 
-I'm a former software developer looking to transition into the world of film and television production. While studying at Humber College, I've developed an affinity for the work of the assistant editor and would love to get a chance to use my skills to help produce the great projects of the future that will excite and inspire others the way so many films of the past have inspired me.
+I'm a former software developer looking to transition into the world of film and television production. While studying at Humber College, I've developed an affinity for the work of the assistant editor. I would love to use my skills to help produce great projects that will excite and inspire others the way so many films of the past have inspired me.
 
 If you're looking for someone who is eager to assist and learn, with several years of real-world work experience in a variety of companies along with proficiency in a wide range of software suites and programming languages, feel free to `}
             <Link to="/contact">contact me</Link>
