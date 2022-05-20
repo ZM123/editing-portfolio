@@ -17,7 +17,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "echo 'zalmachado.com' > ./build/CNAME && gh-pages -d build",
+    "deploy": "echo zalmachado.com > ./build/CNAME && gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
