@@ -28,7 +28,7 @@ If you're looking for someone who is eager to assist and learn, with several yea
 I have working knowledge in the following programs:
     - AVID Media Composer
     - DaVinci Resolve
-    - Adobe Creative Cloud Suite (After Effects, Premiere Pro, Illustrator, Photoshop)
+    - Adobe Creative Cloud Suite (Premiere Pro, After Effects, Illustrator, Photoshop)
     - AVID Pro Tools
     - Autodesk Maya
     - Nuke
